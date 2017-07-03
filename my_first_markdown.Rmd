@@ -11,7 +11,6 @@ knitr::opts_chunk$set(echo = TRUE)
 Download sleep study data
 ```{r}
 library(readr)
-sleep <- read_csv("https://vincentarelbundock.github.io/
-    Rdatasets/csv/lme4/sleepstudy.csv") # no spaces
+sleep <- read_csv("https://vincentarelbundock.github.io/Rdatasets/csv/lme4/sleepstudy.csv") #no spaces
 head(sleep)
 ```
